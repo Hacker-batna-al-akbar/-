@@ -1,14 +1,14 @@
 
 #include <stdio.h>
 
-#define TOTAL_PAGES 604.000
+#define TOTAL_PAGES 604
 #define DAYS_IN_MONTH 30
 
 int main() {
     float day, currentPage, pagesPerDay;
 
     
-    printf(" 🌙 KHATMA 🌙 \n\n\n\n 🔴 For 'n' khatmas Change the constant 604 int begin to \n n x 604 \n\n\n wech mn nhar rana ? ");
+    printf(" 🌙 KHATMA 🌙 \n\n\n\n 🔴 For 'n' khatmas Change the constant 604 int begin to \n n * 604 \n\n\n wech mn nhar rana ? ");
     scanf("%f", &day);
 
      
@@ -36,7 +36,7 @@ int main() {
  
     if (remainingDays > 0) {
         pagesPerDay = remainingPages / remainingDays;
-        printf("\n\n\n\ Lazmek ta9ra minimum %f f nhar \n", pagesPerDay);
+        printf("\n\n\n\ Lazmek ta9ra minimum %f f nhar ✔️ \n\n\n", pagesPerDay);
     } else {
         printf("sa7a aidek\n");
     }
